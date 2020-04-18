@@ -3,29 +3,56 @@
 $title="Index";
 include "includes/header.php"
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>PHP Primer</title>
+</head>
+<body>
 
-<h1>Hello HTml-PHP Primer</h1>
-<br/>
-
+<h2>Follow each link to the page example</h2>
+<ul>
+    <li><a href="array.php">Simple array and printouts</a></li>
+    <li><a href="for.php">for loop</a></li>
+    <li><a href="do while loop.php">Do while </a></li>
+    <li><a href="dowhile.php">while loop</a></li>
+    <li><a href="ifstmt.php">If else stmts</a></li>
+    <li><a href="switch.php">switch stmt</a></li>
+</ul>
+<h1>Hello World</h1>
 <?php
 
- echo "Hello PHP";
- echo "<br/>";
+echo "Hello PHP";
+echo '<br/>';
+echo "Second Line";
 
- echo "Second Line";
- echo "<r/>";
+?>
 
- $name="Anamika";
- $age=24;
+<?php
+$name="Anamika";
+echo $name;
 
- echo $name;
- echo "<h1> My Name IS" . $name. " </h1 >";
+$age=24;
+echo '<h1>My Name is  ' .$name. '</h1>';
+echo '<h1>My age is  ' .$age. '</h1>';
 
- echo "<h1> My Age IS" .$age. "</h1>";
 
- //echo using interpolation
- echo "<h1> My Name IS . $name. </h1 >";
- echo "<h1> My Age IS" .$age. "</h1>";
- ?>
 
- <button type="button" class="btn btn-dark">CLICK ME</button>
+?>
+
+<button type="button" class="btn btn-dark">CLICK ME</button>
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Click here</button>
+<a href="https://www.heroku.com" target="_blank"class="btn btn-danger">Heroku.com</a>
+
+
+</body>
+</html>
+
+
+
+ <!-- <button type="button" class="btn btn-dark">CLICK ME</button> -->
