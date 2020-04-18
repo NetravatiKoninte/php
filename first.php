@@ -42,6 +42,7 @@ echo '<h1>My age is  ' .$age. '</h1>';
 <button type="button" class="btn">Basic</button>
 <button type="button" class="btn btn-default">Default</button>
 <button type="button" class="btn btn-primary">Click here</button>
+<a href="https://www.heroku.com" target="_blank"class="btn btn-danger">Heroku.com</a>
 
 
 </body>
